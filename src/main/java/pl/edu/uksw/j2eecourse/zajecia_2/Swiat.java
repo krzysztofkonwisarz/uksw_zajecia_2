@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Swiat {
 
     @Autowired
-    private Ziemia ziemia;
+    private Planeta planeta;
 
     public void start() {
         System.out.println("Witaj Świecie");
 
-        this.ziemia.przedstawSie();
+        this.planeta.przedstawSie();
     }
 
 }
