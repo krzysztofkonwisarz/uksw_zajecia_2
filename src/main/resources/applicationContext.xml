@@ -10,4 +10,6 @@
     <context:annotation-config />
     <context:component-scan base-package="pl.edu.uksw.j2eecourse" />
 
+    <bean id="swiat" class="pl.edu.uksw.j2eecourse.zajecia_2.Swiat"/>
+
 </beans>

@@ -1,15 +1,11 @@
 package pl.edu.uksw.j2eecourse.zajecia_2;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 
-@Component
 public class Swiat {
 
+    @Autowired
     private Ziemia ziemia;
-
-    public Swiat() {
-        this.ziemia = new Ziemia();
-    }
 
     public void start() {
         System.out.println("Witaj Świecie");
