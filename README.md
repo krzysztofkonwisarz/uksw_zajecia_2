@@ -1,1 +1,3 @@
-# uksw_zajecia_2
+UKSW - Java EE - Zajęcia 2
+
+Spring Framework
